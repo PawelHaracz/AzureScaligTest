@@ -1,1 +1,1 @@
-"# AzureScaligTest"
+# AzureScaligTest
