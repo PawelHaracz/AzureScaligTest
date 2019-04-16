@@ -8,7 +8,7 @@ namespace TestCore
     {
         public static void Run(int wait)
         {
-            var n = 1024 * 512;
+            var n = 1024 ;
             var list = new List<object>();
 
             for (int i = 0; i < n; i++)
@@ -17,8 +17,7 @@ namespace TestCore
                 {
                     Iteration  = i,
                     Calculation = i/n
-                });
-                Thread.Sleep(wait * 10);
+                });             
             }
             list.Clear();
 
